@@ -1,0 +1,10 @@
+{
+  "name": "use-port",
+  "version": "1.0.0",
+  "description": "获取可以使用的端口号",
+  "author": "luoxue",
+  "main": "index.js",
+  "dependencies": {
+    "detect-port": "^1.3.0"
+  }
+}
