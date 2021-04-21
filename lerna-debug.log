@@ -1,0 +1,8 @@
+28 error Error: Command failed: git add -- packages/use-port/package.json packages/use-port/package-lock.json lerna.json
+28 error The following paths are ignored by one of your .gitignore files:
+28 error packages/use-port/package-lock.json
+28 error Use -f if you really want to add them.
+28 error
+28 error     at makeError (/Users/luoxue/.nvm/versions/node/v12.18.0/lib/node_modules/lerna/node_modules/execa/index.js:174:9)
+28 error     at /Users/luoxue/.nvm/versions/node/v12.18.0/lib/node_modules/lerna/node_modules/execa/index.js:278:16
+28 error     at processTicksAndRejections (internal/process/task_queues.js:97:5)
