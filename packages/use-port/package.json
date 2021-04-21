@@ -1,6 +1,6 @@
 {
   "name": "use-port",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "获取可以使用的端口号",
   "author": "luoxue",
   "main": "index.js",
