@@ -4,6 +4,7 @@
   "description": "获取可以使用的端口号",
   "author": "luoxue",
   "main": "index.js",
+  "repo": "https://github.com/luoxue-victor/npm-packages",
   "dependencies": {
     "detect-port": "^1.3.0"
   }
