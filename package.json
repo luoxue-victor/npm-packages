@@ -4,6 +4,9 @@
   "private": true,
   "description": "Lerna 多包存储库管理工具",
   "author": "",
+  "scripts": {
+    "push": "git add . && git commit -m 'docs' && git push"
+  },
   "workspaces": [
     "packages/*"
   ]

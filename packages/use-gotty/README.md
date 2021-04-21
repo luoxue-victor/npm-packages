@@ -1,4 +1,6 @@
-## 使用
+### useGotty
+
+需要安装 gotty
 
 https://github.com/yudai/gotty
 
