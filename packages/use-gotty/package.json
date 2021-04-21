@@ -1,6 +1,6 @@
 {
   "name": "use-gotty",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "使用 gotty",
   "author": "luoxue",
   "main": "index.js",
