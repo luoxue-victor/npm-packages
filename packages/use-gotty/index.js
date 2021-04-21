@@ -1,5 +1,6 @@
 const usePort = require('use-port');
 const chalk = require('chalk')
+const execa = require('execa')
 
 const useGotty = async (projectPath, cmd, port = 6666) => {
   return new Promise(async (resolve) => {
