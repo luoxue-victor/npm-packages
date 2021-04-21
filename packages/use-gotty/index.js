@@ -5,6 +5,11 @@ const execa = require('execa')
 const useGotty = async (projectPath, cmd, port = 6666) => {
   return new Promise(async (resolve) => {
     const _port = await usePort(port)
+
+    if (typeof cmd === 'string') {
+      cmd = cmd.split(' ').filter(_ => _.trim())
+    }
+    
     const child = execa('gotty', ['-w', '-p', _port, '--permit-arguments', ...cmd], {
       cwd: projectPath || process.cwd(),
     })

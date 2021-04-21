@@ -1,10 +1,12 @@
 ## 使用
 
-```js
-const usePort = require('use-port');
-const server = async () => {
-  const port = await usePort(1234)
+https://github.com/yudai/gotty
 
-  console.log(port) // 如果被占用就是使用 1235，依次递增
+```js
+const useGotty = require('use-gotty');
+const server = async () => {
+  const http = await useGotty(process.cwd(), ['sh'], 6666)
+
+  console.log(http)
 }
 ```
