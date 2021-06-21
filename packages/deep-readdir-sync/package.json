@@ -1,6 +1,6 @@
 {
   "name": "deep-readdir-sync",
-  "version": "1.0.4",
+  "version": "1.0.8",
   "description": "深度同步获取文件夹",
   "author": "luoxue",
   "main": "index.js",
