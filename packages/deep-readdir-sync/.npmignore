@@ -1,0 +1,7 @@
+docs
+node_modules
+.gitignore
+dist
+lerna.json
+package.json
+package-lock.json
